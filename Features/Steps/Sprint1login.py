@@ -1,10 +1,12 @@
 import time
 from behave import *
 from selenium import webdriver
+import os
 
 @given('launch sprint1 chrome browser')
 def launchBrowsersprint1(context):
-    context.driver = webdriver.Chrome(executable_path="D:\\chromedriver.exe")
+    path = str(os.getcwd())
+    context.driver = webdriver.Chrome(executable_path= path +"\chromedriver.exe")
     context.driver.maximize_window()
 
 
