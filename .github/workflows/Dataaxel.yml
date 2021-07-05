@@ -31,4 +31,4 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-       behave Features/Sprint1login.feature
+       behave Features/Dataaxle.feature
