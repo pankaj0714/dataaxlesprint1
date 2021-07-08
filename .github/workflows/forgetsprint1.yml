@@ -7,7 +7,7 @@ on:
   push:
       package:
       - '.github/workflows/**'
-      workflow_dispatch:
+  workflow_dispatch:
   
 
 jobs:
