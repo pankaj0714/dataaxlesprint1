@@ -51,5 +51,5 @@ def verifyforgotsprint1(context):
 
 @then('sprint1forgot close browser')
 def closeBrowsersprint1(context):
-    context.sleep(10)
+    #context.sleep(10)
     context.driver.close()
